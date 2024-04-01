@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "3HBK/34fp3qVaxWdVBDfny4pszE46fFqVpsMr8NW5I0=",
+  "Source": "BE-dotnet-api",
+  "BasePath": "_content/BE-dotnet-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

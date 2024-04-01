@@ -1,0 +1,15 @@
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\BE-dotnet-api.Data.csproj.AssemblyReference.cache
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\BE-dotnet-api.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\BE-dotnet-api.Data.AssemblyInfoInputs.cache
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\BE-dotnet-api.Data.AssemblyInfo.cs
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\BE-dotnet-api.Data.csproj.CoreCompileInputs.cache
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\bin\Debug\net8.0\BE-dotnet-api.Data.deps.json
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\bin\Debug\net8.0\BE-dotnet-api.Data.dll
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\bin\Debug\net8.0\BE-dotnet-api.Data.pdb
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\bin\Debug\net8.0\BE-dotnet-api.Model.dll
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\bin\Debug\net8.0\BE-dotnet-api.Model.pdb
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\BE-dotne.F7EEC7D1.Up2Date
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\BE-dotnet-api.Data.dll
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\refint\BE-dotnet-api.Data.dll
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\BE-dotnet-api.Data.pdb
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\ref\BE-dotnet-api.Data.dll
