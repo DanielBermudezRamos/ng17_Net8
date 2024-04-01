@@ -1,4 +1,5 @@
 export interface IEmpleado {
+    
     id: number;
     dni: string;
     nombre: string;
@@ -9,4 +10,5 @@ export interface IEmpleado {
     activo: boolean;
     fechaAlta?: Date;
     fechaMod?: Date;
+
 }
