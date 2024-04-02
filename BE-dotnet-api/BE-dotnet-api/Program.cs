@@ -15,11 +15,11 @@ builder.Services.AddSwaggerGen();
 // -- --- ---- Agregando las instrucciones que necesito para levantar el BackEnd 
 
 // -- --- ---- Opcion 01
-var mySQLConfiguration = new MySQLConfiguration(builder.Configuration.GetConnectionString("MySqlConnection"));
-builder.Services.AddSingleton(mySQLConfiguration);
+//var mySQLConfiguration = new MySQLConfiguration(builder.Configuration.GetConnectionString("MySqlConnection"));
+//builder.Services.AddSingleton(mySQLConfiguration);
 
 // -- --- ---- Opcion 02
-//builder.Services.AddSingleton(new MySqlConnection(builder.Configuration.GetConnectionString("MySqlConnection")));
+builder.Services.AddSingleton(new MySQLConfiguration(builder.Configuration.GetConnectionString("MySqlConnection")));
 
 builder.Services.AddScoped<IEmpleadoRepository, EmpleadoRepository>();
 
@@ -39,5 +39,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+app.UseCors(option => option.AllowAnyOrigin());
 
 app.Run();

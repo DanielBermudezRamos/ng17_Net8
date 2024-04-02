@@ -13,3 +13,4 @@ D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\ob
 D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\refint\BE-dotnet-api.Data.dll
 D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\BE-dotnet-api.Data.pdb
 D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\ref\BE-dotnet-api.Data.dll
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.data\obj\Debug\net8.0\BE-dotnet-api.Data.sourcelink.json

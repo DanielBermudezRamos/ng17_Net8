@@ -4,14 +4,11 @@ using MySql.Data.MySqlClient;
 
 namespace BE_dotnet_api.data.Repositories
 {
-    public class EmpleadoRepository : IEmpleadoRepository
+    public class EmpleadoRepository(MySQLConfiguration connectionString) : IEmpleadoRepository
     {
-        private readonly MySQLConfiguration _connectionString;
-        public EmpleadoRepository(MySQLConfiguration connectionString) 
-        {
-            _connectionString = connectionString;
-        }
-        protected MySqlConnection dbConnection()
+        private readonly MySQLConfiguration _connectionString = connectionString;
+
+        protected MySqlConnection DbConnection()
         { 
             return new MySqlConnection(_connectionString.CadenaConexionMySql); 
         }
@@ -19,7 +16,7 @@ namespace BE_dotnet_api.data.Repositories
 
         public async Task<bool> DeleteEmpleadoByIdAsync(int id)
         {
-            var db = dbConnection();
+            var db = DbConnection();
             var sql = @"DELETE FROM empleados WHERE Id = @Id";
 
             var result = await db.ExecuteAsync(sql, new { Id = id });
@@ -28,7 +25,7 @@ namespace BE_dotnet_api.data.Repositories
 
        public async Task<IEnumerable<Empleado>> GetAllEmpleadosAsync()
         {
-            var db = dbConnection();
+            var db = DbConnection();
             var sql = @"SELECT Id, DNI, Nombre, Apellido, Direccion, Cargo_Id, SueldoHora_Default, Activo, Fch_Add, Fch_Up 
                         FROM empleados ";
             return await db.QueryAsync<Empleado>(sql, new {});
@@ -36,7 +33,7 @@ namespace BE_dotnet_api.data.Repositories
 
         public async Task<Empleado> GetEmpleadoByIdAsync(int id)
         {
-            var db = dbConnection();
+            var db = DbConnection();
             var sql = @"SELECT Id, DNI, Nombre, Apellido, Direccion, Cargo_Id, SueldoHora_Default, Activo, Fch_Add, Fch_Up 
                         FROM empleados 
                         WHERE Id = @Id";
@@ -45,7 +42,7 @@ namespace BE_dotnet_api.data.Repositories
 
         public async Task<bool> InsertEmpleadoAsync(Empleado empleado)
         {
-            var db = dbConnection();
+            var db = DbConnection();
             var sql = @"INSERT INTO empleados (DNI, Nombre, Apellido, Direccion, Cargo_Id, SueldoHora_Default) 
                         VALUES(@DNI, @Nombre, @Apellido, @Direccion, @Cargo_Id, @SueldoHora_Default);";
             var result = await db.ExecuteAsync(sql, new 
@@ -62,7 +59,7 @@ namespace BE_dotnet_api.data.Repositories
 
         public async Task<bool> UpdateEmpleadoAsync(int id, Empleado empleado)
         {
-            var db = dbConnection();
+            var db = DbConnection();
             var sql = @"UPDATE empleados SET
 	                        DNI = @DNI, 
                             Nombre = @Nombre, 

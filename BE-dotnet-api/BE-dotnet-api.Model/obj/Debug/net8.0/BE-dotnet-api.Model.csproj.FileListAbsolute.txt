@@ -9,3 +9,4 @@ D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.Model\o
 D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.Model\obj\Debug\net8.0\refint\BE-dotnet-api.Model.dll
 D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.Model\obj\Debug\net8.0\BE-dotnet-api.Model.pdb
 D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.Model\obj\Debug\net8.0\ref\BE-dotnet-api.Model.dll
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api.Model\obj\Debug\net8.0\BE-dotnet-api.Model.sourcelink.json

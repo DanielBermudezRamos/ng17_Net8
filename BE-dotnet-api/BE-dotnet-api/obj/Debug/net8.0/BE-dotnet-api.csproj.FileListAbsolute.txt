@@ -130,3 +130,4 @@ D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api\obj\Deb
 D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api\obj\Debug\net8.0\BE-dotnet-api.pdb
 D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api\obj\Debug\net8.0\BE-dotnet-api.genruntimeconfig.cache
 D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api\obj\Debug\net8.0\ref\BE-dotnet-api.dll
+D:\Proyects\angular\Ng17Net8_ManejoEmpleados\BE-dotnet-api\BE-dotnet-api\obj\Debug\net8.0\BE-dotnet-api.sourcelink.json

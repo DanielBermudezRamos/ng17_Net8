@@ -5,6 +5,10 @@
 /Client/tmp
 /Client/out-tsc
 /Client/bazel-out
+/Client/.vs/Client/FileContentIndex/*
+/BE-dotnet-api/BE-dotnet-api/obj/*
+/BE-dotnet-api/.vs/BE-dotnet-api/FileContentIndex/*
+
 
 # Node
 /Client/node_modules
